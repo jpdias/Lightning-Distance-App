@@ -1,15 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Deployment xmlns="http://schemas.microsoft.com/windowsphone/2012/deployment" AppPlatformVersion="8.0">
-  <DefaultLanguage xmlns="" code="en-US" />
-  <App xmlns="" ProductID="{e4ab9835-30b3-4d9d-81f9-5c155028eddd}" Title="Lightning Distance" RuntimeType="Silverlight" Version="1.0.0.0" Genre="apps.normal" Author="JP Dias" Description="Application to calculate the distance of lightnings in a thunderstorm." Publisher="Lightning Distance" PublisherID="{ec401dea-38a0-4a2c-99da-f943c41f24f5}">
+  <DefaultLanguage xmlns="" code="en" />
+  <Languages xmlns="">
+    <Language code="en" />
+  </Languages>
+  <App xmlns="" ProductID="{e4ab9835-30b3-4d9d-81f9-5c155028eddd}" Title="Lightning Distance" RuntimeType="Silverlight" Version="1.1.0.0" Genre="apps.normal" Author="JP Dias" Description="Application to calculate the distance of lightnings in a thunderstorm." Publisher="Lightning Distance" PublisherID="{ec401dea-38a0-4a2c-99da-f943c41f24f5}">
     <IconPath IsRelative="true" IsResource="false">iconsmall.png</IconPath>
-    <Capabilities>
-      <Capability Name="ID_CAP_NETWORKING" />
-      <Capability Name="ID_CAP_MEDIALIB_AUDIO" />
-      <Capability Name="ID_CAP_MEDIALIB_PLAYBACK" />
-      <Capability Name="ID_CAP_SENSORS" />
-      <Capability Name="ID_CAP_WEBBROWSERCOMPONENT" />
-    </Capabilities>
+    <Capabilities></Capabilities>
     <Tasks>
       <DefaultTask Name="_default" NavigationPage="MainPage.xaml" />
     </Tasks>

@@ -88,7 +88,7 @@
                 <Grid Margin="0,-121,0,0">
                     <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Text="Tap when you see a lightning and again when you listen to the thunder!" VerticalAlignment="Top" Width="420" Height="140" FontSize="35" TextAlignment="Center" Margin="0,78,0,0"/>
 
-                    <Button x:Name="Click" Margin="10,218,0,94" BorderThickness="0" ClickMode="Press" Click="Click_Click" Style="{StaticResource ButtonStyle1}">
+                    <Button x:Name="Click" Margin="10,218,0,94" BorderThickness="0" ClickMode="Release" Click="Click_Click" Style="{StaticResource ButtonStyle1}">
                         <Button.Background>
                             <ImageBrush Stretch="Fill" ImageSource="Assets/00.png"/>
                         </Button.Background>
